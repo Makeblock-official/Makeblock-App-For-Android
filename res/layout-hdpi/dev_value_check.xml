@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/corners_round"
+    android:layout_width="300dp"
+    android:layout_height="64dp" >
+
+    <TextView
+        android:id="@+id/textPort"
+        android:layout_width="50dp"
+        android:layout_height="64dp"
+        android:text="3"
+        android:gravity="center" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" 
+            android:background="#ffa8abad">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageDevice"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center" 
+            android:scaleType="centerInside"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ultrasonic" />
+
+        <TextView
+            android:id="@+id/textValue"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp" />
+        <CheckBox
+            android:id="@+id/ledCheck "
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:enabled="false"
+            android:text="LED" />
+
+    </LinearLayout>
+
+</LinearLayout>

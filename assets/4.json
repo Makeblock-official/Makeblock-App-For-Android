@@ -1,0 +1,4 @@
+{"type":1,"moduleList":[
+{"port":3,"xPosition":150,"slot":0,"type":40,"yPosition":200,"name":"carcontroller"},
+{"port":3,"xPosition":201,"slot":0,"type":1,"yPosition":650,"name":"ultrasonic"}
+],"updateTime":"2014\/08\/13 16:51:52","createTime":"2014\/08\/13 15:56:55","name":"Robot Tank"}

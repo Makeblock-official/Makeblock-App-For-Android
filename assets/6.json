@@ -1,0 +1,5 @@
+{"type":1,"moduleList":[
+{"port":9,"xPosition":120,"slot":0,"type":10,"yPosition":311,"name":"dcmotor"},
+{"port":10,"xPosition":336,"slot":0,"type":10,"yPosition":306,"name":"dcmotor"}
+],
+"updateTime":"2014\/08\/13 16:54:41","createTime":"2014\/08\/13 16:54:11","name":"Ball Launcher"}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/speedLabel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:paddingBottom="5dp"
+	        android:text="Speed:150" />
+
+	</FrameLayout>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/upButton"
+        android:layout_width="76px"
+        android:layout_height="96px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="4px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/up_dir" />
+
+    <ImageButton
+        android:id="@+id/downButton"
+        android:layout_width="76px"
+        android:layout_height="96px"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="174px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/down_dir" />
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="96px"
+        android:layout_height="76px"
+        android:layout_marginLeft="4px"
+        android:layout_marginTop="100px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/left_dir" />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="96px"
+        android:layout_height="76px"
+        android:layout_marginLeft="174px"
+        android:layout_marginTop="100px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/right_dir" />
+
+    <ImageButton
+        android:id="@+id/leftUpButton"
+        android:layout_width="82px"
+        android:layout_height="82px"
+        android:layout_marginLeft="9px"
+        android:layout_marginTop="9px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/leftup_dir" />
+
+    <ImageButton
+        android:id="@+id/rightUpButton"
+        android:layout_width="82px"
+        android:layout_height="82px"
+        android:layout_marginLeft="186px"
+        android:layout_marginTop="9px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rightup_dir" />
+
+    <ImageButton
+        android:id="@+id/leftDownButton"
+        android:layout_width="82px"
+        android:layout_height="82px"
+        android:layout_marginLeft="9px"
+        android:layout_marginTop="186px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/leftdown_dir" />
+
+    <ImageButton
+        android:id="@+id/rightDownButton"
+        android:layout_width="82px"
+        android:layout_height="82px"
+        android:layout_marginLeft="186px"
+        android:layout_marginTop="186px"
+        android:background="#00000000"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rightdown_dir" />
+
+    <ImageButton
+        android:id="@+id/speedButton"
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:layout_marginLeft="89px"
+        android:layout_marginTop="89px"
+        android:background="#00000000"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/speed" />
+
+</FrameLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.makeblock.makeblock"
+    android:versionCode="21"
+    android:versionName="1.0.20" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="20" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="cc.makeblock.makeblock.MainActivity"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|keyboardHidden|orientation" 
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cc.makeblock.makeblock.LayoutView"
+            android:screenOrientation="sensorLandscape"
+            android:configChanges="screenSize|keyboardHidden|orientation" 
+            android:label="@string/app_name"
+            ></activity>
+        
+        <activity
+            android:name="cc.makeblock.makeblock.WebviewActivity"
+            android:screenOrientation="sensorLandscape"
+            android:label="@string/app_name"
+            ></activity>
+        <activity
+            android:name="cc.makeblock.makeblock.DialogActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="@string/app_name"
+            ></activity>
+        <service
+            android:name="cc.makeblock.makeblock.Bluetooth"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cc.makeblock.makeblock" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="cc.makeblock.makeblock.BluetoothLE"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="cc.makeblock.makeblock" />
+            </intent-filter>
+        </service>
+        <service android:name="GattAppService" android:enabled="true"/>
+    <meta-data android:value="5412643cfd98c5c6a3012da4" android:name="UMENG_APPKEY"></meta-data>
+	<meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
+    </application>
+
+</manifest>

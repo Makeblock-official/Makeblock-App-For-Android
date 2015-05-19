@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/speedLabel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:paddingBottom="5dp"
+	        android:text="Speed:150" />
+	</FrameLayout>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="96px"
+        android:layout_height="76px"
+        android:layout_marginLeft="4px"
+        android:layout_marginTop="11px"
+        android:background="#00000000"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/left_dir" />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="96px"
+        android:layout_height="76px"
+        android:layout_marginLeft="174px"
+        android:layout_marginTop="11px"
+        android:background="#00000000"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/right_dir" />
+
+    <ImageButton
+        android:id="@+id/speedButton"
+        android:layout_width="96px"
+        android:layout_height="96px"
+        android:layout_marginLeft="89px"
+        android:layout_marginTop="0px"
+        android:background="#00000000"
+        android:clickable="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/speed" />
+
+</FrameLayout>
+
+	<FrameLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TextView
+	        android:id="@+id/textPort"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:paddingBottom="5dp"
+	        android:text="M1" />
+
+	</FrameLayout>
+</LinearLayout>

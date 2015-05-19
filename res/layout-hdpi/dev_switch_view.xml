@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/corners_round"
+    android:layout_width="226dp"
+    android:layout_height="64dp" >
+
+    <TextView
+        android:id="@+id/textPort"
+        android:layout_width="50dp"
+        android:layout_height="64dp"
+        android:text="3"
+        android:gravity="center" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" 
+            android:background="#ffa8abad">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageDevice"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center" 
+            android:scaleType="centerInside"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/ultrasonic" />
+
+        <ImageView
+            android:id="@+id/switchImg"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="14dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/switch_on" />
+
+    </LinearLayout>
+
+</LinearLayout>

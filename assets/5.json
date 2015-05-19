@@ -1,0 +1,5 @@
+{"type":1,"moduleList":[
+{"port":3,"xPosition":150,"slot":0,"type":40,"yPosition":200,"name":"carcontroller"},
+{"port":1,"xPosition":100,"slot":0,"type":10,"yPosition":620,"name":"dcmotor"},
+{"port":2,"xPosition":340,"slot":0,"type":10,"yPosition":620,"name":"dcmotor"}
+],"updateTime":"2014\/08\/13 16:52:59","createTime":"2014\/08\/13 15:56:55","name":"Robotic Arm Tank"}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="236dp"
+    android:layout_height="64dp"
+    android:background="@drawable/corners_round" >
+
+    <TextView
+        android:id="@+id/textPort"
+        android:layout_width="50dp"
+        android:layout_height="64dp"
+        android:text="3"
+        android:gravity="center" 
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:layout_height="match_parent" 
+            android:background="#ffa8abad">
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ultrasonic" />
+
+        <TextView
+            android:id="@+id/textValue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp"
+            android:text="100"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16dp" />
+
+        <ToggleButton
+            android:id="@+id/autoSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="auto" />
+
+    </LinearLayout>
+
+</LinearLayout>

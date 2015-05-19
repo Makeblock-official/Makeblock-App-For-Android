@@ -1,0 +1,4 @@
+{"type":1,"moduleList":[
+{"port":9,"xPosition":230,"slot":0,"type":10,"yPosition":560,"name":"dcmotor"},
+{"port":0,"xPosition":150,"slot":0,"type":40,"yPosition":200,"name":"carcontroller"}
+],"updateTime":"2014\/08\/13 16:55:43","createTime":"2014\/08\/13 16:54:11","name":"Drink Car"}
